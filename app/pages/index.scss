@@ -1,0 +1,14 @@
+
+
+.page {
+    display:flex;
+
+    &__left,
+    &__right {
+        flex: 0 0 8%;
+    }
+    
+    &__center{
+        flex: 1;
+    }
+}
