@@ -3,7 +3,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Hi this is my Personal Website
 It uses NextJs 13 with turbopack and tailwindcss for styling. It has also and blog and snake included.
 
-The snake uses client-site Rendering and has its own style.
+### snake 
+It uses client-site Rendering and has its own style.
+
+### contact Forum
+The contact Forum uses a node js library called nodemailer, which sends a email to my personal email adress with an api call in the aplication.
 
 ## Getting Started
 
