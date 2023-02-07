@@ -11,8 +11,8 @@ export default function Homepage() {
   ));
   return (
     <>
-      <div className="flex flex-row bg-gray1 w-full  overflow-x-hidden ">
-        <div className="sm:flex hidden">
+      <div className="flex flex-col sm:flex-row bg-gray1 w-full  overflow-x-hidden ">
+        <div className="">
           <Sidebar />
         </div>
         <div className=" bg-gray1">

@@ -4,6 +4,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import axios from "axios";
+import Head from "next/head";
 
 function contactme() {
   const [name, setName] = useState("");
@@ -21,7 +22,7 @@ function contactme() {
 
     setStatus(null);
     try {
-      await axios.post("./api/send-email", {
+      await axios.post("/api/send-email", {
         name,
         email,
         message,

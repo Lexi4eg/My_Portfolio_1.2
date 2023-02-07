@@ -38,7 +38,7 @@ function Navbar() {
                 <GiSandSnake className="h-10 w-10" />
               </Link>
             </div>
-            <div className="border p-2 rounded-md border-yellow-500 text-yellow-500">
+            <div className="border hidden sm:flex p-2 rounded-md border-yellow-500 text-yellow-500">
               <DownloadButton />
             </div>
           </div>

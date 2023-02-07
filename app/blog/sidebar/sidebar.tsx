@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <>
       <div className="flex flex-col ">
-        <Link href={"/"}>
+        <Link href={"/"} className="flex pl-8 pt-2  sm:p-3 items-center ">
           <svg
             className="bg-black  m-1 rounded-lg p-1 "
             xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ function Sidebar() {
             />
           </svg>
         </Link>
-        <div>
+        <div className="">
           <Categories />
         </div>
       </div>
@@ -48,7 +48,7 @@ function Categories() {
   return (
     <>
       {" "}
-      <div className=" bg-gray1 pt-8 pl-10 w-60">
+      <div className=" bg-gray1 sm:pt-8 sm:pl-10 p-8  mb-0 w-full sm:w-60 ">
         <h1 className="text-white text-2xl pb-8">Categories</h1>
         <div className=" text-türkis">
           <ul className="p-1 pl-0">
