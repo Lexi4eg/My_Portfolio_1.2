@@ -39,7 +39,7 @@ function About() {
             outdoor activities, TV series and gliding.
             <br />
             <br />
-            Here are the few technologies that I'have been working recently:{" "}
+            Here are the few technologies that I have been working recently:{" "}
             <br />
             <ul className="p-4 grid sm:text-2xl sm:grid-rows-3 gap-2 sm:grid-flow-col m-1 text-2xl overflow-hidden list-none mb-4">
               <li className="flex flex-row ">

@@ -16,6 +16,7 @@ const transporter = nodemailer.createTransport({
 });
 
 // Send an email when the form is submitted
+// eslint-disable-next-line import/no-anonymous-default-export
 export default async (req, res) => {
   try {
     // Extract the form data from the request body
